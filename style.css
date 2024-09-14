@@ -1,0 +1,128 @@
+body{
+    
+    margin: 0;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 20%;
+}
+#right_container{
+    
+    display: grid;
+    grid-template-rows: 20% 80%;
+    background-color: aquamarine;
+}
+#sidebar{
+   
+    background-color: rgb(52, 143, 247);
+    color: white;
+    display: grid;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%
+
+}
+#header{
+    padding: 5% 5% 5% 5%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+    background-color: rgb(255, 255, 255);
+}
+#header_top{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    
+}
+#search_bar{
+   font-size: 1em;
+   margin-bottom: 5%;
+   
+}
+#header_bottom{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+#main_content{
+    background-color: darkorange;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+#nav_title{
+    padding: 5% 1% 1% 5%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-size: 1.5em;
+    height: 1%;
+   /* justify-items:center;*/
+}
+.nav_headings{
+    padding-left: 5%;
+    justify-self: baseline;
+    margin: 3%;
+}
+.blank{
+    margin: 5%;
+}
+.icons{
+    align-self:center;
+    justify-self:end;
+    height: 1.5em;
+    filter: invert();
+}
+.icons_main{
+   
+    
+    height: 1.5em;
+}
+.nav_items{
+    
+    padding: 1% 1% 1% 1%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-size: 1em;
+    height: 1%;
+}
+#search_bar{
+    border-style: none;
+    border-radius: 5pt;
+    background-color: rgb(226, 226, 226);
+    
+}
+#header_buttons{
+    display: grid;
+    grid-template-columns: 33%  33%  33%;
+}
+button{
+    background-color:  rgb(52, 143, 247);
+    color: white;
+    border-style: none;
+    border-radius: 20pt;
+    padding: 5% 10% 5% 10%;
+    
+    
+}
+#main_left{
+    
+    background-color: rgb(226, 226, 226);
+    justify-content: center;
+}
+.cards{
+    background-color: white;
+    border-left-style: solid;
+    border-color: darkorange;
+    padding: 5%;
+    border-radius: 5pt;
+}
+#card_container{
+    display: grid;
+    justify-content: center;
+    gap: 5%;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 40% 40% 40% 40% 40%;
+    
+}
+/*
+5x5 grid
+sidebar - 1-2-1-6
+header - 2-6-1-2
+main content - 2-6-2-6
+*/
