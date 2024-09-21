@@ -1,10 +1,32 @@
 body{
-    
+    margin:0;
+    height: 1vh;
+   
+}
+#content_area{
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 20% 20%;
+    
+
+   
+    
 }
+p{
+    font-size: .8rem;
+    margin: 0%;
+    
+}
+#user_name{
+    padding: 0 10% 0 10%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#welcome_user_name{
+    font-weight: bold;
+}
+
 #right_container{
     
     display: grid;
@@ -16,11 +38,13 @@ body{
     background-color: rgb(52, 143, 247);
     color: white;
     display: grid;
-    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%
+    grid-template-rows: 10% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    height: 100vh;
+    
 
 }
 #header{
-    padding: 5% 5% 5% 5%;
+   padding: 0 5% 0 5%;
     display: grid;
     grid-template-rows: 50% 50%;
     
@@ -32,9 +56,17 @@ body{
     align-items: center;
     
 }
+#header_top_left{
+    display: grid;
+    grid-template-columns: 5% 80% 15%;
+}
+#header_top_right{
+    display: grid;
+    grid-template-columns: 10% 80%;
+}
 #search_bar{
    font-size: 1em;
-   margin-bottom: 5%;
+   
    
 }
 #header_bottom{
@@ -42,9 +74,13 @@ body{
     grid-template-columns: 70% 30%;
 }
 #main_content{
-    background-color: darkorange;
+    background-color: rgb(226, 226, 226);;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
+    overflow: auto;
+    padding-bottom: 5%;
+   
+    
 }
 #nav_title{
     padding: 5% 1% 1% 5%;
@@ -70,7 +106,6 @@ body{
 }
 .icons_main{
    
-    
     height: 1.5em;
 }
 .nav_items{
@@ -97,13 +132,44 @@ button{
     border-style: none;
     border-radius: 20pt;
     padding: 5% 10% 5% 10%;
+    align-self: center;
+    margin: 0 5% 0 5%;
     
     
 }
 #main_left{
-    
+    display: grid;
+    grid-template-rows: 5% 95%;
     background-color: rgb(226, 226, 226);
     justify-content: center;
+    
+    padding-top: 5%;
+}
+#main_right{
+    display: grid;
+    
+    padding: 10% 5% 0 5%;
+    background-color: rgb(226, 226, 226);
+   
+  
+}
+#main_right_top{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    background-color: white;
+    border-radius: 5pt;
+   
+}
+#main_right_bottom{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    background-color: white;
+    border-radius: 5pt;
+}
+.card_icon_container{
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    padding-top: 5%;
 }
 .cards{
     background-color: white;
@@ -111,14 +177,59 @@ button{
     border-color: darkorange;
     padding: 5%;
     border-radius: 5pt;
+    display: grid;
+
+}
+.card_icons{
+    height: 1.5em;
+    justify-self: end;
+    padding: 0 5% 0 5%;
+    
+}
+.card_text{
+    font-size: 1vw;
 }
 #card_container{
     display: grid;
     justify-content: center;
     gap: 5%;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 40% 40% 40% 40% 40%;
+    grid-template-rows: 30% 30% 30%;
     
+}
+#your_projects{
+    padding-left: 3%;
+}
+h2{
+  margin: 0;
+  font-size: 1rem;
+ 
+}
+h3{
+    font-size: 1.2vw;
+    margin: 0%;
+    padding: 0%;
+}
+h4{
+    margin: 0;
+}
+#announcements_content{
+    padding: 5%;
+    display: grid;
+    font-size:1vw;
+    border-radius: 5pt;
+    
+}
+#trending_content{
+    padding: 5%;
+    background-color: white;
+    font-size: .6rem;
+    border-radius: 5pt;
+}
+.announcements{
+    background-color: white;
+    padding:  5%;
+    border-radius: 5pt;
 }
 /*
 5x5 grid

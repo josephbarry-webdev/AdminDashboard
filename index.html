@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="content_area">
     <div id="sidebar">
         <div id="nav_title">
             <img class="icons" src="assets/icons/view-dashboard.svg" alt="dashboard">
@@ -44,30 +45,37 @@
         <div class="nav_items"> <img class="icons" src="assets/icons/shield-check.svg" alt="privacy">
             <p class="nav_headings">Privacy</p>
         </div>
-
+        <div class="nav_items blank"></div>
     </div>
     <div id="right_container">
 
         <div id="header">
             <div id="header_top">
-                <div>
+                <div id="header_top_left">
                     <img class="icons_main" src="assets/icons/magnify.svg" alt="search">
                     <input id="search_bar" type="text">
+                   
+                    
+                </div>
+                <div id="header_top_right">
+                    <div>
                     <img class="icons_main" src="assets/icons/bell-ring-outline.svg" alt="alert">
                 </div>
                 <div>
-                    <p>Joseph Barry</p>
+                    <p id="user_name">Joseph Barry</p>
+                </div>
                 </div>
             </div>
             <div id="header_bottom">
                 <div>
+                   
                     <p>Hi there,</p>
-                    <p>Joseph Barry (@jobes)</p>
+                    <p id="welcome_user_name">Joseph Barry (@jobes)</p>
                 </div>
                 <div id="header_buttons">
-                    <div><button>New</button></div>
-                    <div><button>Upload</button></div>
-                    <div><button>Share</button></div>
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
 
                 </div>
             </div>
@@ -75,53 +83,145 @@
         <div id="main_content">
             
             <div id="main_left">
-                <h2>Your Projects</h2>
+                <div class="headings" id="your_projects"><h2>Your Projects</h2></div>
+
                 <div id="card_container">
                 <div class="cards">
+                    <div>
                     <h3>Super Cool Project</h3>
-                    <p>something something there and here about nothing really.
+                </div>
+                <div>
+                    <p class="card_text">something something there and here about nothing really.
                         just here to fill some space.</p>
+                    </div>
+                    <div class="card_icon_container">
+                        <img class="card_icons" src="assets/icons/star-plus-outline.svg" alt="favorite">
+                        <img class="card_icons" src="assets/icons/eye-plus-outline.svg" alt="inspect">
+                    </div>
                 </div>
                 <div class="cards">
+                    <div>
                     <h3>Less Cool Project</h3>
-                    <p>something something there and here about nothing really.
+                </div>
+                <div>
+                   
+                    <p class="card_text">something something there and here about nothing really.
                         just here to fill some space.</p>
+                    
+                    </div>
+                    <div class="card_icon_container">
+                        <img class="card_icons" src="assets/icons/star-plus-outline.svg" alt="favorite">
+                        <img class="card_icons" src="assets/icons/eye-plus-outline.svg" alt="inspect">
+                    </div>
                 </div>
                 <div class="cards">
+                    <div>
                     <h3>Impossible Cool Project</h3>
-                    <p>something something there and here about nothing really.
+                </div>
+                <div>
+                    <p class="card_text">something something there and here about nothing really.
                         just here to fill some space.</p>
+                    </div>
+                    <div class="card_icon_container">
+                        <img class="card_icons" src="assets/icons/star-plus-outline.svg" alt="favorite">
+                        <img class="card_icons" src="assets/icons/eye-plus-outline.svg" alt="inspect">
+                    </div>
                 </div>
                 <div class="cards">
+                    <div>
                     <h3>Easy Peasy App</h3>
-                    <p>something something there and here about nothing really.
+                </div>
+                <div>
+                    <p class="card_text">something something there and here about nothing really.
                         just here to fill some space.</p>
+                    </div>
+                    <div class="card_icon_container">
+                        <img class="card_icons" src="assets/icons/star-plus-outline.svg" alt="favorite">
+                        <img class="card_icons" src="assets/icons/eye-plus-outline.svg" alt="inspect">
+                    </div>
                 </div>
                 <div class="cards">
+                    <div>
                     <h3>Ad Blocker</h3>
-                    <p>something something there and here about nothing really.
+                </div>
+                <div>
+                    <p class="card_text">something something there and here about nothing really.
                         just here to fill some space.</p>
+                    </div>
+                    <div class="card_icon_container">
+                        <img class="card_icons" src="assets/icons/star-plus-outline.svg" alt="favorite">
+                        <img class="card_icons" src="assets/icons/eye-plus-outline.svg" alt="inspect">
+                    </div>
                 </div>
                 <div class="cards">
+                    <div>
                     <h3>Money Maker</h3>
-                    <p>something something there and here about nothing really.
+                </div>
+                <div>
+                    <p class="card_text">something something there and here about nothing really.
                         just here to fill some space.</p>
+                    </div>
+                    <div class="card_icon_container">
+                        <img class="card_icons" src="assets/icons/star-plus-outline.svg" alt="favorite">
+                        <img class="card_icons" src="assets/icons/eye-plus-outline.svg" alt="inspect">
+                    </div>
                 </div>
             </div>
             </div>
-        </div>
+        
         <div id="main_right">
-
+            <div class="headings"><h2>Announcements</h2></div>
             <div id="main_right_top">
-
+                    
+                    <div id="announcements_content">
+                        <div>
+                            <h4>Site Maintenance</h4>
+                            Something we must type in here. Nothing too crazy going on. 
+                                These things we just fill in for no reason.
+                            </div>
+                            
+                 
+                   <div>
+                            <h4>Community Share Day</h4>
+                            Something we must type in here. Nothing too crazy going on. 
+                                These things we just fill in for no reason.
+                            </div>
+                       
+                        <div>
+                            <h4>Updated Privacy Policy</h4>
+                        Something we must type in here. Nothing too crazy going on. 
+                                These things we just fill in for no reason.
+                            </div>
+                       
+                    </div>
             </div>
-            <div id="bottom">
-
+            <div class="headings"><h2>Trending</h2></div>
+            <div id="main_right_bottom">
+                
+                <div id="trending_content">
+                    <div>
+                    <p>@tegan</p>
+                    <p>World Peace Builder</p>
+                </div>
+                <div>
+                    <p>@morgan</p>
+                    <p>Super Cool Project</p>
+                </div>
+                <div>
+                    <p>@Kendall</p>
+                    <p>Life Changing App</p>
+                </div>
+                <div>
+                    <p>@alex</p>
+                    <p>No Traffic Maker</p>
+                </div>
+                </div>
             </div>
         </div>
     </div>
-
+</div>
     </div>
+</div>
 </body>
 
 </html>
